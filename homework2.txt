@@ -1,0 +1,34 @@
+1. 
+Odd squares can only be formed by odd numbers as even numbers will form even squares.
+
+Lets take any odd number x.
+
+x — ? (mod 8) Then ? can be 1, 3, 5, 7
+
+Because x = 8k + ? and removing something even from an odd number will leave back an odd number.
+
+? = x - 8k
+
+So we only need to check modulus of the squares of 1,3,5,7
+
+1*1 — 3*3 — 5*5 — 7*7 — 1 (mod 8) so statement is true.
+
+Even squares:
+
+2*2 — 4 (mod 8)
+
+4*4 — 0 (mod 8)
+
+6*6 — 4 (mod 8)
+
+8*8 — 0 (mod 8) and so on.
+
+2. Tried vanity address generator.
+
+3. (i) The time is takes to solve a problem increases proportionally to the size of the input.
+
+(ii)  The time is takes to solve a problem is independent to the size of the input.
+
+(iii)  The time is takes to solve a problem increases log n times (very slowly) as the size of the input n increases.
+
+For a proof, it should be O(1) as the proof should be independent of the size of the input.

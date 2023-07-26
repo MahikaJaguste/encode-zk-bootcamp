@@ -1,0 +1,20 @@
+1. 
+(a) 4+4 — 1 (mod 7)
+
+(b) 3*5 — 1 (mod 7)
+
+(c) Thus 5 is the inverse of 3 mod 7
+
+
+2. Not a group because 5+6 = 11 which does not belong to the group.
+
+
+3. -13 mod 5 = 2  as (5*-3 + 2 = -13)
+
+
+
+4. 
+
+x^3 − x^2 + 4x − 12 is a third degree polynomial.
+
+x=2 is a positive root.
